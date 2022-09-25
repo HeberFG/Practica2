@@ -4,6 +4,6 @@ if(navigator.serviceWorker){
     if(thisUri.toString().includes('127.0.0.1')){
         navigator.serviceWorker.register('/sw.js');
     }else{
-        navigator.serviceWorker.register('/sw.js');
+        navigator.serviceWorker.register('/heberfg.github.io/Practica2/sw.js');
     }
 }
